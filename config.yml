@@ -2,7 +2,7 @@
 applications:
   pezdispenser:
     deployments:
-      - name: development
+      - name: develop
         url: api.run.core.pez.pivotal.io --skip-ssl-validation
         org: sys-pez
         space: pez-dev 
