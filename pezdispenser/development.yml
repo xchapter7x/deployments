@@ -1,0 +1,7 @@
+---
+inherit: manifest.yml
+instances: 2
+hosts:
+- dispenserdev
+domains:
+- cfapps.core.pez.pivotal.io  
