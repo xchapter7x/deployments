@@ -7,7 +7,7 @@ applications:
         org: sys-pez
         space: pez-dev 
         path: pezdispenser/development.yml
-        push_cmd: push dispenserdev 
+        push_cmd: push-zdd dispenserdev 
       - name: production
         url: api.run.core.pez.pivotal.io --skip-ssl-validation
         org: sys-pez
