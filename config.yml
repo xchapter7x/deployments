@@ -9,7 +9,7 @@ applications:
         path: coolservice/development.yml
         push_cmd: cf push-zdd ${APP_NAME} 
       - name: production
-        url: api.run.mydomain.io
+        url: api.run.proddomain.io
         org: prodorg
         space: bigspace
         path: coolservice/production.yml
