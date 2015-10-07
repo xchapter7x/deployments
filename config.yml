@@ -1,17 +1,17 @@
 ---
 applications:
-  pezdispenser:
+  coolservice:
     deployments:
       - name: develop
-        url: api.run.core.pez.pivotal.io --skip-ssl-validation
-        org: sys-pez
-        space: pez-dev 
-        path: pezdispenser/development.yml
-        push_cmd: cf push-zdd dispenserdev 
+        url: api.run.mydomain.io --skip-ssl-validation
+        org: devorg
+        space: samplespace
+        path: coolservice/development.yml
+        push_cmd: cf push-zdd ${APP_NAME} 
       - name: production
-        url: api.run.core.pez.pivotal.io --skip-ssl-validation
-        org: sys-pez
-        space: pez
-        path: pezdispenser/production.yml
-        push_cmd: cf push-zdd dispenser 
+        url: api.run.mydomain.io
+        org: prodorg
+        space: bigspace
+        path: coolservice/production.yml
+        push_cmd: cf push-zdd coolservice 
 
