@@ -2,6 +2,6 @@
 inherit: manifest.yml
 instances: 2
 hosts:
-- dispenserdev
+- coolservicedev 
 domains:
-- cfapps.core.pez.pivotal.io  
+- cfapps.io  
